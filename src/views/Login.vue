@@ -25,12 +25,11 @@ import LoginForm from '@/components/Auth/LoginForm'
 </script>
 
 <style scoped>
-.login {
-    margin-top: 78px;
-}
+
 .main__section {
     
     display: flex;
+    padding-top: 40px;
 }
 
 @media (min-width: 320px) and (max-width: 812px) {

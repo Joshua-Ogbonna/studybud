@@ -33,12 +33,12 @@
         <p>Forgot Password?</p>
       </div>
     </form>
-    <div class="line">
+    <!-- <div class="line">
       <hr />
       <span>Or</span>
-    </div>
+    </div> -->
     <!-- Alternative area -->
-    <div class="alternative">
+    <!-- <div class="alternative">
       <div class="social__mediaAuth">
         <div class="action__buttons">
           <div class="google">
@@ -61,7 +61,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- No account -->
     <div class="no__account">
@@ -132,7 +132,7 @@ form input::placeholder {
   line-height: 32px;
 }
 .forgot {
-  text-align: right;
+  text-align: left;
   font-family: Lato;
   font-style: normal;
   font-weight: normal;
@@ -224,7 +224,7 @@ form input::placeholder {
   font-weight: normal;
   font-size: 16px;
   line-height: 32px;
-  padding-top: 30px;
+  /* padding-top: 30px; */
   text-align: center;
 }
 .no__account a {

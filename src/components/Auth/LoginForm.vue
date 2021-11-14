@@ -27,12 +27,12 @@
         <button>Login</button>
       </div>
     </form>
-    <div class="line">
+    <!-- <div class="line">
       <hr />
       <span>Or</span>
-    </div>
+    </div> -->
     <!-- Alternative area -->
-    <div class="alternative">
+    <!-- <div class="alternative">
       <div class="social__mediaAuth">
         <div class="action__buttons">
           <div class="google">
@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- No account -->
     <div class="no__account">
       <p>
@@ -78,7 +78,8 @@ export default {
 
 .login__form {
   width: 50%;
-  padding: 50px 100px;
+  padding: 50px 100px 20px;
+  height: 100vh;
 }
 .login__form h3 {
   font-family: Inter;
