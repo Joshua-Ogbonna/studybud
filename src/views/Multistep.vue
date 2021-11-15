@@ -6,7 +6,7 @@
       <SideComponent />
       <div class="form__area">
         <component :is="steps[currentStep].component" :method="userDetails" />
-        <div class="action__button">
+        <div class="action__button">   
           <button class="next" @click="nextPage" v-show="showNext">
             Next
           </button>
